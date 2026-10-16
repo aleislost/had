@@ -1,0 +1,14 @@
+instance_create_depth(x, y, depth, oMenuArrow);
+menu = [];
+var i = 0;
+menu[i] = "begin";
+i++;
+menu[i] = "levels";
+i++;
+menu[i] = "settings";
+i++;
+menu[i] = "quit";
+oMenuArrow.goto_y = y + 4;
+index = 0;
+oMenuArrow.goto_x = x - (string_length(menu[index]) * 5);
+alarm[0] = room_speed * 0.2;

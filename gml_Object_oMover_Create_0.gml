@@ -1,0 +1,15 @@
+suunt = [];
+destro = false;
+destroyed = false;
+activated = false;
+phase = 0;
+_xx = x;
+_yy = y;
+spd = 0.5;
+draw_xscale = 1;
+draw_yscale = 1;
+hold = false;
+start_x = x;
+start_y = y;
+xx_goto = x;
+yy_goto = y;

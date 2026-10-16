@@ -1,0 +1,14 @@
+start_y = y;
+start_depth = depth;
+depth -= (y - 1);
+image_xscale = 0;
+image_yscale = 0;
+parentparent = -4;
+collected = false;
+image_speed = 0;
+amo = 0;
+ide = 0;
+start = true;
+xbonus = 0;
+win = false;
+away = 0;

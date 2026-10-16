@@ -1,0 +1,15 @@
+instance_create_depth(x, y, depth + 5, oBlackHoleCover);
+laps = scr_a(instance_create_depth(x, y, depth + 1, oHoleTentacle), instance_create_depth(x, y, depth + 1, oHoleTentacle), instance_create_depth(x, y, depth + 1, oHoleTentacle), instance_create_depth(x, y, depth + 1, oHoleTentacle));
+laps_small = scr_a(instance_create_depth(x, y, depth + 1, oHoleTentacle_small), instance_create_depth(x, y, depth + 1, oHoleTentacle_small), instance_create_depth(x, y, depth + 1, oHoleTentacle_small), instance_create_depth(x, y, depth + 1, oHoleTentacle_small));
+flower = scr_a(instance_create_depth(x, y, depth - 1, oIntroFlower), instance_create_depth(x, y, depth - 1, oIntroFlower), instance_create_depth(x, y, depth - 1, oIntroFlower), instance_create_depth(x, y, depth - 1, oIntroFlower), instance_create_depth(x, y, depth - 1, oIntroFlower));
+laps[1].angle = 90;
+laps[2].angle = 180;
+laps[3].angle = 270;
+laps_small[0].angle = 45;
+laps_small[1].angle = 135;
+laps_small[2].angle = 225;
+laps_small[3].angle = 315;
+image_xscale = 0;
+image_yscale = 1;
+phase = -1;
+alarm[0] = room_speed;
